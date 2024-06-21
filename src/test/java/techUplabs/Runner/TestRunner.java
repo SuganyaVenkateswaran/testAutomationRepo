@@ -14,7 +14,7 @@ import java.io.IOException;
     @CucumberOptions(
             features = {"src/test/resources/Features/"},
             glue = {"techUplabs/StepDefs"},
-            tags = {"@WeatherApp"},
+            tags = {"@ReadExcelfile"},
             plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html",
                     "rerun:target/failedrerun.txt"}
     )
